@@ -91,3 +91,30 @@ body {
   margin: 80px 10% 120px 10%;
   font-size: 1.5rem;
 }
+
+.about-header {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.about-founder-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 5%;
+}
+
+.founder-statement-section {
+  width: 400px;
+  font-size: 1.5rem;
+}
+
+.founder-name {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-text {
+  margin: 0px 10% 80px 10%;
+  font-size: 1.5rem;
+}
