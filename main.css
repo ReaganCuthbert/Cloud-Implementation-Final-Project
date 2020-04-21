@@ -1,0 +1,75 @@
+body {
+  background-color: #F7F9FF;
+}
+
+.nav-bg {
+  background-color: #19131A;
+}
+
+.nav-link, .navbar-brand {
+  color: #F7F9FF!important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+.welcome-section {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-header {
+  font-size: 3.3rem;
+  font-weight: bold;
+}
+
+.welcome-page-subtitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin: auto 10%;
+}
+
+
+.recent-posts {
+  margin-top: 180px;
+}
+
+.recent-posts-header {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.post {
+  margin: 0px 10%;
+  display: flex;
+  border-top: 1px black;
+  border-top-style: solid;
+  padding: 25px 0px;
+}
+
+.post-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.post-name {
+  font-size: 1.9rem;
+}
+
+.post-author {
+  font-size: 1.2rem;
+}
+
+.post-link {
+  color: #19131A;
+}
