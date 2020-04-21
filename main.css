@@ -38,7 +38,7 @@ body {
 
 
 .recent-posts {
-  margin-top: 180px;
+  margin: 180px 0px 50px 0px;
 }
 
 .recent-posts-header {
@@ -72,4 +72,22 @@ body {
 
 .post-link {
   color: #19131A;
+}
+
+.post-header-section {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.page-author {
+    font-size: 1.5rem;
+}
+
+.blog-text {
+  margin: 80px 10% 120px 10%;
+  font-size: 1.5rem;
 }

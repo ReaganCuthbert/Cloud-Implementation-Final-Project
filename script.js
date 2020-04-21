@@ -12,11 +12,13 @@ async function retrieveBlogPosts() {
   .then(response => response.json())
   .then((response) => {
 
-
     response.body.forEach((post, index) => {
+
+      const postId = post.PostID;
+
       const aTag = document.createElement('a');
       aTag.classList.add('post-link');
-      aTag.href = '#'
+      aTag.href = `./post.html?PostID=${postId}`
 
 
       const postDiv = document.createElement('div');
