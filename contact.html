@@ -32,21 +32,23 @@
 </nav>
 
 
-<!-- Blog Post Header -->
-<div class="post-header-section">
-  <img id="postImage" width="600" height="450">
-  <p class="page-header" id="postHeaderText"></p>
-  <p class="page-author" id="postAuthor"></p>
-</div>
+<!-- Contact Section Header -->
+<p class="page-header about-header">Contact Us</p>
 
 
-<!-- Blog Text -->
-<p class="blog-text" id="blogText"></p>
+<!-- Message Form -->
+<form onSubmit="event.preventDefault(); sendMessage();">
+  <label for="Email">Email</label>
+  <input type="text" name="Email" id="email-input">
+  <label class="message-label" for="Message">Message</label>
+  <textarea id="message-input" name="Message" rows="8" cols="80"></textarea>
+  <button type="submit" class="btn btn-primary">Send Message</button>
+</form>
 
 
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="./main.css">
-<script src="./blogScript.js"></script>
+<script src="./contactScript.js"></script>
 </body>
 </html>

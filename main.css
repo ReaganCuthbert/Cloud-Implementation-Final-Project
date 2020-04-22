@@ -118,3 +118,36 @@ body {
   margin: 0px 10% 80px 10%;
   font-size: 1.5rem;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 15%;
+}
+
+
+#email-input {
+  width: 445px;
+  height: 35px;
+  border: 1px solid black;
+}
+
+#message-input {
+  width: 660px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+form label {
+  font-size: 1.2rem;
+}
+
+.message-label {
+  margin-top: 50px;
+}
+
+.btn {
+  margin-top: 40px;
+  background-color: #19131A;
+  width: 200px;
+}
